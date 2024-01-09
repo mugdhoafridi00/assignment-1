@@ -1,19 +1,19 @@
 body{
-    max-width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
-.title{
-    background-image: url('../resources/Banner\ Image.png');
-    width: 1320px;
+.header{
+  background-image: url('../resources/Banner\ Image.png');
 height: 600px;
 flex-shrink: 0;
 border-radius: 16px;
 color: #fff;
- background-repeat: no-repeat;
- margin: 0 auto;
+background-repeat: no-repeat;
+margin: 0 auto;
 
 }
-.title h1{
-    color: #FFF;
+.header h1{
+  color: #FFF;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
@@ -24,246 +24,245 @@ padding-bottom:  177px;
 padding-right: 300px;
 padding-left: 300px;
 }
-.title p{
-    color: #fce7e7;
+.header p{
+  color: #FFF;
 text-align: center;
 font-family: Merriweather;
-font-size: 31px;
+font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
- padding-top:  175px;
+padding-top:  177px;
 }
-    /*nav relate picture*/
-    nav{
-        color: rgb(239, 97, 97);
-        text-align: center;
-        font-family: Inter;
-        font-size: 85px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-        nav p{
-            color: rgb(212, 30, 30);
-            text-align: center;
-            font-family: Inter;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 480;
-            line-height: normal;
-        }
-    nav h4{
-        color: #070211;
+/* nav related style */
+nav{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+nav p{
+  color: rgb(212, 44, 44);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+nav h4{
+  color: black;
 text-align: center;
 font-family: Inter;
 font-size: 48px;
 font-style: normal;
-font-weight: 710;
+font-weight: 700;
 line-height: normal;
-    }
-    .element{
-        background-image: url(../resources/Vectorrr.png);
-        width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    color: #fff;
-     background-repeat: no-repeat;
-     margin: 0 auto;
-        padding-left: 126px;
-    }
-    .element h1{
-        color: #FFF;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px; /* 131.944% */
-    padding-top: 126px;
-    
-    }
-    .element p{
-        text-align: left;
-        color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
-    }
-    .element {
-        display: flex;
-    
-    }
-    .element img{
-        padding-top: 68px;
-        
-    }
-    .element a{
-        color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    }
-    .html {
-      display: flex;
-      gap: 24px;
-      flex-wrap: wrap;
-    }
-    .html img{
-       width: 428px;
-       height: 440px;
-       border-radius: 12px;
-       
-       
-    }
-    section{
-        width: 1320px;
-        margin:0 auto;
-    }
-    .class {
-        color: #F00;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    }
-    .massage{
-    
-        width: 1320px;
-        height: 616px;
-        flex-shrink: 0;
-        padding-left: 585px;
-        padding-right: 585px;
-        padding-top: 85px;
-        
-        }
-        .massage{
-        background: rgba(230, 213, 213, 0.05);
-        width: 400px;
-           height: 500px;
-           border-radius: px;
-           background-repeat: no-repeat; 
-           padding-left: 452px;
-           padding-right: 452px;
-           padding-top: 120px;
-           margin-top: 60px;
-        }
-        
-        .massage input{
-            color: rgba(7, 2, 17, 0.3 0);
-        text-align: center;
-        width: 500px;
-        height: 65px;
-        flex-shrink: 0;
-        
-        }
-        .massage button{
-            border-radius: 0px 50px 50px 0px;
-        background: #F00;
-        width: 100px;
-        height: 50px;
-            flex-shrink: 0;
-            width: 210px;
-            height: 72px;
-            flex-shrink: 0;
-        }
-        .massage h1{
-            color: #070211;
-        font-weight: 700;
-        }
-        .massage p{
-            color: rgba(7, 2, 17, 0.60);
-        
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 300;
-        }
-        .class{
-            display: flex;
-        }
-        
-        .bg-main {
-            height: 610px;
-            background: #070211;
-            margin-top: 100px;
-          }
-          
-          .main-div {
-            display: flex;
-            justify-content: space-between;
-          }
-          
-          .left-div {
-            padding-top: 110px;
-            padding-left: 140px;
-          }
-          .left-div p {
-            color: #fff;
-            font-family: Inter;
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 40px; /* 166.667% */
-          }
-          
-          .png1 {
-            padding-top: 12px;
-            padding-right: 10px;
-          }
-          .png2 {
-            padding-top: 12px;
-            padding-right: 10px;
-          }
-          
-          .right-div {
-            padding-top: 120px;
-            padding-right: 290px;
-            color: #fff;
-          }
-          .rigt-1 {
-            display: flex;
-          }
-          
-          .right-1 p {
-          }
-          .right-2 {
-            display: flex;
-          }
-          .righ-2 p {
-            color: #fff;
-            font-family: Inter;
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 40px; /* 166.667% */
-          }
-          /* footer center */
-          .footer-center {
-            display: flex;
-            justify-content: center;
-            padding: 60px;
-          }
-          
-          /* footer bottom */
-          .footer-bottom {
-            display: flex;
-            justify-content: space-between;
-          }
-          
-          .footer-left {
-            color: #fff;
-            font-family: Inter;
-            font-size: 24px;
-            font-weight: 500;
-            padding-left: 140px;
-          }
-          .footer-right {
-            color: #fff;
-            font-family: Inter;
-            font-size: 24px;
-            font-weight: 500;
-            padding-right: 290px;
-          
+}
+.center{
+  background-image: url(../resources/Vectorrr.png);
+height: 600px;
+flex-shrink: 0;
+border-radius: 16px;
+color: #fff;
+background-repeat: no-repeat;
+margin: 0 auto;
+}
+.center h1{
+  color: #FFF;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+padding-top: 126px;
+
+}
+.center p{
+  text-align: left;
+  color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.center {
+  display: flex;
+
+}
+.center img{
+  padding-top: 68px;
+  
+}
+.center a{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.portfolio {
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+}
+.portfolio img{
+ width: 424px;
+ height: 450px;
+ border-radius: 16px;
+ 
+ 
+}
+section, header{
+  width: 1320px;
+  margin:0 auto;
+}
+.best {
+  color: #F00;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+}
+.massage{
+  
+height: 616px;
+flex-shrink: 0;
+/* padding-left: 585px;
+padding-right: 585px; */
+padding-top: 85px;
+text-align: center;
+
+}
+.massage{
+background: rgba(143, 139, 139, 0.05);
+width: 100%;
+ height: 500px;
+ border-radius: px;
+ background-repeat: no-repeat; 
+ /* padding-left: 452px;
+ padding-right: 452px; */
+ padding-top: 120px;
+ margin-top: 60px;
+}
+
+.massage input{
+  color: rgba(7, 2, 17, 0.3 0);
+text-align: center;
+width: 500px;
+height: 65px;
+flex-shrink: 0;
+
+}
+.massage button{
+  border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 100px;
+height: 50px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.massage h1{
+  color: #070211;
+font-weight: 700;
+}
+.massage p{
+  color: rgba(7, 2, 17, 0.60);
+
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.bg-main {
+  height: 610px;
+  background: #070211;
+  margin-top: 100px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-div {
+  padding-top: 110px;
+  padding-left: 140px;
+}
+.left-div p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.png1 {
+  padding-top: 12px;
+  padding-right: 10px;
+}
+.png2 {
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.right-div {
+  padding-top: 120px;
+  padding-right: 290px;
+  color: #fff;
+}
+.rigt-1 {
+  display: flex;
+}
+
+.right-1 p {
+}
+.right-2 {
+  display: flex;
+}
+.righ-2 p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+/* footer center */
+.footer-center {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+/* footer bottom */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 140px;
+}
+.right {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 290px;
+}
